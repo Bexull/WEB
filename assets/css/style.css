@@ -12,7 +12,7 @@ body{
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-	background-image: url("E:/WEB/assets/images/bg.jpg");
+	background-image: url("../../assets/images/bg.jpg");
 }
 .header-line{
 	display: flex;
@@ -215,12 +215,16 @@ body{
 .stats-holder{
 	display: flex;
 }
+.history-info{
+	padding-right: 30px;
+}
 .history-holder{
 	display: flex;
 	justify-content: space-between;
 }
 .history-images{
 	position: relative;
+	margin-right: 900px;
 }
 .images-1{
 	position: absolute;
@@ -231,24 +235,25 @@ body{
 .images-1{
 	position: absolute;
 	z-index: 0;
-	top:-55px;
-	left:-893px;
+	top:-31px;
+	left:187px;
 }
 .images-2{
 	position: absolute;
 	z-index: 10;
-	top:-93px;
-	left:-672px;
+	top:2px;
+	left:372px;
 }
 .images-3{
 	position: absolute;
 	z-index: 11;
-	top:28px;
-	left:-451px;
+	top: 84px;
+	left: 617px;
+	
 }
 
 .mid{
-	background-image: url("E:/WEB/assets/images/mid.jpg");
+	background-image: url("../../assets/images/mid.jpg");
 	padding-bottom: 70px;
 }
 .mid-title{
@@ -452,4 +457,9 @@ body{
 /* popus */
 .popUp.active{
 	display: block;
+}
+
+#me{
+	height: 100vh;
+	width: 100%;
 }

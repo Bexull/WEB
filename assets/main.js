@@ -26,21 +26,21 @@ let switchMode = document.getElementById("switchMode");
 switchMode.onclick = function () {
     let theme = document.getElementById("theme");
 
-    if(theme.getAttribute("href") == "E:/WEB/assets/css/light_theme.css"){
-        theme.href = "E:/WEB/assets/css/style.css";
+    if(theme.getAttribute("href") == "assets/css/light_theme.css"){
+        theme.href = "assets/css/style.css";
     } else{
-        theme.href = "E:/WEB/assets/css/light_theme.css"
+        theme.href = "assets/css/light_theme.css"
     }
 }
 let switchMode2 = document.getElementById("switchMode2");
 switchMode2.onclick = function () {
     let theme = document.getElementById("theme");
 
-    if(theme.getAttribute("href") == "E:/WEB/assets/css/style.css"){
-        theme.href = "E:/WEB/assets/css/light_theme.css";
+    if(theme.getAttribute("href") == "assets/css/style.css"){
+        theme.href = "assets/css/light_theme.css";
     } 
     else{
-        theme.href = "E:/WEB/assets/css/style.css"
+        theme.href = "assets/css/style.css"
     }
 }
 // Получить модальный
