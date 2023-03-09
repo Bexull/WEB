@@ -11,14 +11,16 @@
 // 	alert("Nice")
 // }
 
-// btnn = document.querySelector(".btnn");
-// btnn.onclick = function(){
-// 	this.innerHTML = '<div class="loader"></div>';
-// 	setTimeout(() => {
-// 		this.innerHTML = "Thank you❤️";
-// 	},2000);
-// }
-
+btnn = document.querySelector(".btnn");
+btnn.onclick = function(){
+	this.innerHTML = '<div class="loader"></div>';
+	setTimeout(() => {
+		this.innerHTML = "Thank you❤️";
+	},2000);
+}
+btnn.addEventListener('click', (e) => {
+    e.preventDefault();
+    });
 
 let switchMode = document.getElementById("switchMode");
 switchMode.onclick = function () {
